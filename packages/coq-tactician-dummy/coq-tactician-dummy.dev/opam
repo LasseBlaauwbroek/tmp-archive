@@ -1,6 +1,4 @@
 opam-version: "2.0"
-name: "coq-tactician-dummy"
-version: "dev"
 synopsis: "A dummy implementation of Tactician"
 description: """
   This package acts as a stand-in for the Tactician plugin (`coq-tactician`).
@@ -18,7 +16,7 @@ bug-reports: "https://github.com/coq-tactician/coq-tactician-dummy/issues"
 maintainer: "Lasse Blaauwbroek <lasse@blaauwbroek.eu>"
 authors: "Lasse Blaauwbroek <lasse@blaauwbroek.eu"
 depends: [
-  "coq" {>= "8.11"}
+  "coq"
 ]
 build: [
   [make "-j%{jobs}%"]
@@ -26,9 +24,6 @@ build: [
 install: [
   [make "install"]
 ]
-url {
-  src: "git+https://github.com/coq-tactician/coq-tactician-dummy.git#v8.11"
-}
 tags: [
   "keyword:tactic-learning"
   "keyword:machine-learning"
