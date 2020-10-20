@@ -25,7 +25,7 @@ install: [
   [make "install"]
 ]
 tags: [
-  "keyword:tactic-learning"
+  "kkeyword:tactic-learning"
   "keyword:machine-learning"
   "keyword:automation"
   "keyword:proof-synthesis"
